@@ -9,6 +9,7 @@
 - **플랫폼:** PC
 - **엔진:** Unity 2022.3.17f1
 - **다운로드 링크:** [링크](https://drive.usercontent.google.com/download?id=10aD5AhFeXklBuu-DQd-2jfgLu0N2GgdI&export=download&authuser=0)
+
 ---
 
 ## 📸 스크린샷 및 영상
@@ -22,7 +23,11 @@
 ## 🧑‍💻 담당 업무 (My Role)
 ### 레이저 퍼즐
 - 레이저 퍼즐 로직 구현
+
+  
+  ![레이저 퍼즐](Images/Laser%202.PNG)
 - 퍼즐에 사용되는 각종 오브젝트 구현
+  ![레이저 퍼즐 오브젝트](Images/Laser%20Objects.PNG)
 
 ### 데이터 저장 및 불러오기
 - 플레이어 및 퍼즐 클리어 정보를 json으로 변환하여 저장
