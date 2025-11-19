@@ -39,13 +39,13 @@
 ## 🔍 주요 구현 기능 (Key Features)
 
 ### 1) 레이저 퍼즐 로직 및 기능
-- 레이저 상호작용을 위한 정보를 담은 구조체 구현([LaserHitInfo](), [LaserRaycastInfo](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Puzzle/Laser_Puzzle/Common/Constants.cs))
-- 레이저 및 플레이어 입력에 의한 상호작용을 구현하기 위한 인터페이스([ILaserInteractable](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Puzzle/Laser_Puzzle/Interface/ILaserInteractable.cs), [IInteractable](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Puzzle/Laser_Puzzle/Interface/IInteractable.cs))
-- [LaserPuzzleManager](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Puzzle/Laser_Puzzle/Managers/LaserPuzzleManager.cs)를 통해 해당 퍼즐 스테이지의 진행을 관리
-- 레이저 발사 기능을 Raycast와 LineRenderer를 통해서 구현([LaserRaycaster](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Puzzle/Laser_Puzzle/Objects/LaserRaycaster.cs))
+- 레이저 상호작용을 위한 정보를 담은 구조체 구현([LaserHitInfo, LaserRaycastInfo](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Puzzle/Laser_Puzzle/Common/Constants.cs))
+- 레이저 및 플레이어 입력에 의한 상호작용을 구현하기 위한 인터페이스([ILaserInteractable](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Puzzle/Laser_Puzzle/Interface/ILaserInteractable.cs), [IInteractable](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Puzzle/Laser_Puzzle/Interface/IInteractable.cs))
+- [LaserPuzzleManager](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Puzzle/Laser_Puzzle/Managers/LaserPuzzleManager.cs)를 통해 해당 퍼즐 스테이지의 진행을 관리
+- 레이저 발사 기능을 Raycast와 LineRenderer를 통해서 구현([LaserRaycaster](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Puzzle/Laser_Puzzle/Objects/LaserRaycaster.cs))
 
 ### 2) 데이터 저장 및 불러오기
-- [DataManger](https://github.com/ONEJEUNGWOO/Puzzle_Cat/blob/main/Assets/02.%20Script/Manager/DataManager.cs)를 통해 플레이어의 위치, 회전, 각 퍼즐의 클리어 정보를 저장
+- [DataManger](https://github.com/UserJin/PuzzleCat/blob/main/Scripts/Manager/DataManager.cs)를 통해 플레이어의 위치, 회전, 각 퍼즐의 클리어 정보를 저장
 
 ---
 
